@@ -1,2 +1,6 @@
 # rpc_impl
 自定义rpc框架的实现，从socket到netty
+
+socket_communicate modules实现了简单的socket服务端和客户端通讯（阻塞式）
+socket_thread_communicate modules实现了socket多线程的服务端和客户端通讯（伪异步）
+socket_netty_communicate modules实现了netty服务端和客户端通信（异步io）
