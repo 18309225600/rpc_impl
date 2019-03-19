@@ -29,6 +29,7 @@ public class MyServer {
 
         //回复客户端消息
         printWriter.println(reply);
+        //注意刷缓冲，不然不提交
         printWriter.flush();
 
     }

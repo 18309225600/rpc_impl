@@ -15,6 +15,7 @@ public class MyClient {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
 
         printWriter.println("你好");
+        //注意刷缓冲，不然不提交
         printWriter.flush();
 
 
